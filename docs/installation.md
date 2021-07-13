@@ -85,7 +85,7 @@ The format as follow:
 
 - **fromEmail**: The sender email address used when `maildog` forward the email
 - **scanEnabled**: If true, then emails received will be scanned for spam and viruses
-- **tlsEnforece**: Specifies whether `maildog` should require that incoming email is delivered over a connection encrypted with Transport Layer Security (TLS).
+- **tlsEnforced**: Specifies whether `maildog` should require that incoming email is delivered over a connection encrypted with Transport Layer Security (TLS).
 - **fallbackEmails**: A catch-all / wildcard rule. All emails received on the corresponding domain will be forwarded to these email addresses unless specified in the `alias` section.
 - **alias**: The email prefix with a `description` and list of email addresses forwarding `to`
 
